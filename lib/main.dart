@@ -126,7 +126,7 @@ class _TabBarWidgetState extends State<TabBarWidget> {
         ),
         Expanded(
           child: TabWidget(
-            label: "性感明星",
+            label: "性感美女",
             value: 2,
           ),
         )

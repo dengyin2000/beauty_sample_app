@@ -5,12 +5,6 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import 'package:flutter/widgets.dart';
 
-var uris = [
-  Uri.http('127.0.0.1:8080', '/清纯美女.json'),
-  Uri.http('127.0.0.1:8080', '/美女明星.json'),
-  Uri.http('127.0.0.1:8080', '/性感美女.json')
-];
-
 class SelectedIndexModel with ChangeNotifier{
   int _selectedIndex = 0;
   int get selectedIndex => _selectedIndex;
